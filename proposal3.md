@@ -1,10 +1,10 @@
-# Bayesian vs Neural Network Classification Comparison 
+# Bayesian vs Machine Learning Classification Comparison 
 
 ### Sabrina Pereira and Ashley Swanson
 
 ---
 
-We plan to explore the differences between the classification outcomes of neural networks and naive Bayesian classifiers. Specifically, we are curious if the misclassified data points are similar between the two methods, implying that they are truly indistinguishable based on the given traits, or if the classifiers get different data points wrong, implying differences in modeling. To do this, we plan to train a neural net to output roughly the same precision and recall as a naive Bayesian and analyze the similarities and differences of misclassified data points.
+We plan to explore the differences between the classification outcomes of machine learning classifiers and naive Bayesian classifiers. Specifically, we are curious if the misclassified data points are similar between the two methods, implying that they are truly indistinguishable based on the given traits, or if the classifiers get different data points wrong, implying differences in modeling. To do this, we plan to implement machine learning to output roughly the same precision and recall as a naive Bayesian classifier and analyze the similarities and differences of misclassified data points.
 
 We plan to begin with the Iris dataset that comes pre-loaded in scikit learn. This will allow us to begin classifying immediately after some cleaning. We recognize that the results of this test will only extend to this dataset, so a possible extension would be to redo the process with another set and see if the results align. 
 
