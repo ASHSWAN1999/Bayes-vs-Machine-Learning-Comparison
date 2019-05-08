@@ -33,8 +33,7 @@ We used the principle of cross-validation to understand how well our classifiers
 
 For each iteration where we trained and tested the classifiers with a random test-train split, we recorded which of the flowers in the test set were misclassified. We then evaluated commonly misclassified flowers to see which classifier tended to produce the incorrect classification or if both misclassified that flower. 
 
-For more information, please visit the [jupyter notebook]([Read more](https://github.com/ASHSWAN1999/Bayes-vs-Machine-Learning-Comparison)
-) containing all of our analysis.
+For more information, please visit the [jupyter notebook](https://github.com/ASHSWAN1999/Bayes-vs-Machine-Learning-Comparison) containing our analysis.
 
 ## Results
 
