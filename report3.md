@@ -22,7 +22,7 @@ Here, the distribution of sizes for each feature and iris types are plotted. Thi
 
 
 
-![png](output_9_1.png)
+![](distributions.png)
 
 
 From this figure, we can see that some features are more valuable for distinguishing between iris types than other features. For example, the distribution of petal widths for setosa irises does not overlap with the petal width distributions of the other irises. This means that, by only looking at the petal width of a flower, it is easy to tell if that flower is a setosa iris. However, there is no plot where the distribution of measurements for versicolor and virginica do not overlap, indicating that a flower with a feature that is typical of both iris types could be misclassified. The power of our classifiers lies in their ability to make modeling decisions to consider more than one feature, increasing the likelihood of correct outcomes. 
@@ -51,8 +51,7 @@ For the k-NN classifier, 34.2% of the misclassified flowers were versicolor iris
 
 Below is the frequency of misclassification for each flower in the dataset under both classifiers. The x-axis represents each of the 150 flowers measured in this dataset. The background colors show the true iris type of each of these flowers, and the bars show what percentage of the time a given flower was misclassified by each classifier. 
 
-
-![png](output_26_1.png)
+![](Picture1.png)
 
 
 We can see that there are three categories of flowers: those that were commonly misclassified by both models, those that were often misclassified by one model and not the other, and those that were sometimes misclassified with any classifier. The first case suggests that these flowers were truly ambiguous, possibly exhibiting common characteristics of another iris type. The second case where only one model misclassifies a flower consistently suggests flaws within that model itself - its decision boundaries led to a misclassification that another model got correct. The final case of the presence of flowers that are sometimes misclassified by either model suggests that they could be classified more reliably with the addition of more data, as the accuracy is dependant on the test-train split. 
@@ -61,7 +60,7 @@ We observed a specific flower from the dataset that was misclassified by both cl
 
 Below are the measurements for flowers A, B, and C, which were all were all virginica irises frequently incorrectly classified as versicolor. Overlaid are the average measurements of versicolor irises (denoted by the red lines) and virginica irises (denoted by the blue lines).
 
-
+![](feature_comparison.png)
 
 Looking at these traits, we see that the measurements for flower A are not in line with what we would expect from the average virginica iris - most humans would probably guess that it’s a versicolor iris as well! Flowers B and C are not as easily classifiable as one or the other by a human, especially when we remember that some features are more indicative of an iris type than others. The fact that these flowers differ in measurements by a relatively large amount, and were only misclassified by one classifier, evidences the idea that even with the same dataset and accuracy, the decision boundaries created by each classifier will vary and produce different results.
 
